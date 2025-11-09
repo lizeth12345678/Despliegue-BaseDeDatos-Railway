@@ -1,0 +1,70 @@
+SELECT * FROM public.usuarios
+ORDER BY id_usuarios ASC;
+-- Insertar 30 ESCRITORES
+INSERT INTO usuarios (tipo_de_usuario, nombre_completo, nickname, email, password) VALUES
+('Escritor', 'María Gómez López', 'mariagomez', 'mariagomez1@gmail.com', 'pass123'),
+('Escritor', 'Juan Pérez Torres', 'juanperez', 'juanperez1@gmail.com', 'pass123'),
+('Escritor', 'Camila Rodríguez Vega', 'camirodz', 'camirodz1@gmail.com', 'pass123'),
+('Escritor', 'Andrés Martínez Ruiz', 'andresmruiz', 'andresmruiz1@gmail.com', 'pass123'),
+('Escritor', 'Laura Hernández Díaz', 'laurahdz', 'laurahdz1@gmail.com', 'pass123'),
+('Escritor', 'Felipe Castro Rojas', 'felipec', 'felipec1@gmail.com', 'pass123'),
+('Escritor', 'Valentina Soto Gómez', 'valsoto', 'valsoto1@gmail.com', 'pass123'),
+('Escritor', 'Santiago Romero Ortiz', 'santiromero', 'santiromero1@gmail.com', 'pass123'),
+('Escritor', 'Daniela Vargas León', 'danivargas', 'danivargas1@gmail.com', 'pass123'),
+('Escritor', 'José Ramírez Peña', 'joseramirez', 'joseramirez1@gmail.com', 'pass123'),
+('Escritor', 'Lucía Fernández Pardo', 'luciafp', 'luciafp1@gmail.com', 'pass123'),
+('Escritor', 'Mateo Díaz Salazar', 'mateodiaz', 'mateodiaz1@gmail.com', 'pass123'),
+('Escritor', 'Gabriela Torres Niño', 'gabytorres', 'gabytorres1@gmail.com', 'pass123'),
+('Escritor', 'Sebastián Arias Castaño', 'sebarias', 'sebarias1@gmail.com', 'pass123'),
+('Escritor', 'Juliana López Medina', 'julilmedina', 'julilmedina1@gmail.com', 'pass123'),
+('Escritor', 'David Navarro Ruiz', 'davidnav', 'davidnav1@gmail.com', 'pass123'),
+('Escritor', 'Natalia Pérez Hoyos', 'natperez', 'natperez1@gmail.com', 'pass123'),
+('Escritor', 'Ricardo Rojas Londoño', 'ricardor', 'ricardor1@gmail.com', 'pass123'),
+('Escritor', 'Ana María Acosta Gil', 'anacosta', 'anacosta1@gmail.com', 'pass123'),
+('Escritor', 'Carlos Medina Rincón', 'cmedinar', 'cmedinar1@gmail.com', 'pass123'),
+('Escritor', 'Laura Quiroga Sánchez', 'lauraqs', 'lauraqs1@gmail.com', 'pass123'),
+('Escritor', 'Tomás Rivera Gómez', 'tomasr', 'tomasr1@gmail.com', 'pass123'),
+('Escritor', 'Isabella Cárdenas López', 'isacardenas', 'isacardenas1@gmail.com', 'pass123'),
+('Escritor', 'Juanita Mejía Toro', 'juanimejia', 'juanimejia1@gmail.com', 'pass123'),
+('Escritor', 'Camilo Herrera Mora', 'camilohm', 'camilohm1@gmail.com', 'pass123'),
+('Escritor', 'Valeria Cruz Rico', 'valcruz', 'valcruz1@gmail.com', 'pass123'),
+('Escritor', 'Simón Orozco Díaz', 'simorozco', 'simorozco1@gmail.com', 'pass123'),
+('Escritor', 'Sofía Parra Lozano', 'sofiaparra', 'sofiaparra1@gmail.com', 'pass123'),
+('Escritor', 'Miguel Suárez Peña', 'miguelsu', 'miguelsu1@gmail.com', 'pass123'),
+('Escritor', 'Paula Ruiz Mejía', 'paularm', 'paularm1@gmail.com', 'pass123');
+
+-- Insertar 20 LECTORES
+INSERT INTO usuarios (tipo_de_usuario, nombre_completo, nickname, email, password) VALUES
+('Lector', 'Andrea López', 'andreal', 'andreal1@gmail.com', 'pass123'),
+('Lector', 'Luis Torres', 'luistorres', 'luistorres1@gmail.com', 'pass123'),
+('Lector', 'Sara Gómez', 'saragomez', 'saragomez1@gmail.com', 'pass123'),
+('Lector', 'Julián Rodríguez', 'julianr', 'julianr1@gmail.com', 'pass123'),
+('Lector', 'Camila Castro', 'camilac', 'camilac1@gmail.com', 'pass123'),
+('Lector', 'Emilio Vargas', 'emiliov', 'emiliov1@gmail.com', 'pass123'),
+('Lector', 'Nicolás Díaz', 'nicolasd', 'nicolasd1@gmail.com', 'pass123'),
+('Lector', 'Mariana Rojas', 'marianar', 'marianar1@gmail.com', 'pass123'),
+('Lector', 'Alejandro Pérez', 'alexperez', 'alexperez1@gmail.com', 'pass123'),
+('Lector', 'Luisa Fernández', 'luisafern', 'luisafern1@gmail.com', 'pass123'),
+('Lector', 'Santiago Ortiz', 'santiortiz', 'santiortiz1@gmail.com', 'pass123'),
+('Lector', 'Carolina Martínez', 'caromartinez', 'caromartinez1@gmail.com', 'pass123'),
+('Lector', 'Tomás Ruiz', 'tomasr2', 'tomasr2@gmail.com', 'pass123'),
+('Lector', 'Isabela Torres', 'isatorres', 'isatorres1@gmail.com', 'pass123'),
+('Lector', 'Felipe Navarro', 'felipenav', 'felipenav1@gmail.com', 'pass123'),
+('Lector', 'Daniel Gómez', 'danielg', 'danielg1@gmail.com', 'pass123'),
+('Lector', 'Valentina López', 'valenlopez', 'valenlopez1@gmail.com', 'pass123'),
+('Lector', 'Samuel Hernández', 'samhernandez', 'samhernandez1@gmail.com', 'pass123'),
+('Lector', 'Juana Castillo', 'juanac', 'juanac1@gmail.com', 'pass123'),
+('Lector', 'Esteban Cárdenas', 'estebanc', 'estebanc1@gmail.com', 'pass123');
+
+-- Insertar 10 AUTORES
+INSERT INTO usuarios (tipo_de_usuario, nombre_completo, nickname, email, password) VALUES
+('Autor', 'Laura Mendoza', 'lauram', 'lauram1@gmail.com', 'pass123'),
+('Autor', 'Jorge Restrepo', 'jorger', 'jorger1@gmail.com', 'pass123'),
+('Autor', 'Natalia Díaz', 'nataliad', 'nataliad1@gmail.com', 'pass123'),
+('Autor', 'David López', 'davidl', 'davidl1@gmail.com', 'pass123'),
+('Autor', 'Sara Hernández', 'sarahz', 'sarahz1@gmail.com', 'pass123'),
+('Autor', 'Felipe Morales', 'felipem', 'felipem1@gmail.com', 'pass123'),
+('Autor', 'Paula Jiménez', 'paulaj', 'paulaj1@gmail.com', 'pass123'),
+('Autor', 'Ricardo Gómez', 'ricardog', 'ricardog1@gmail.com', 'pass123'),
+('Autor', 'Juliana Ruiz', 'julir', 'julir1@gmail.com', 'pass123'),
+('Autor', 'Sofía Torres', 'sofiat', 'sofiat1@gmail.com', 'pass123');
